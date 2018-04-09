@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Common programming algorithms for beginner level">
+  <meta name="keywords" content="higher lower algorithmic.cs, algorithmic.cs, algorithms, beginner, programming, javascript, js, ecmascript, es6, javascript games">
+  
+  <title>Higher Lower | algorithmic.cs</title>
+  <link rel="shortcut icon" href="icon.png" type="image/png">
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+
+  <link rel="stylesheet" href="main.css">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117222548-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-117222548-1');
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>HIGHER LOWER</h1>
+
+    <div class="stats">
+      <p>To beat: <span id="bestScore">0</span> in <span id="bestTime">00.0</span> s</p>
+    </div>
+
+    <div id="game">
+      <p class="score"><span id="score">??</span>/8</p>
+
+      <p class="timer">
+        <span id="seconds">00</span>.<span id="milliseconds">0</span> s
+      </p>
+
+      <ul>
+        <li>??</li>
+        <li>??</li>
+        <li>??</li>
+        <li>??</li>
+        <li>??</li>
+        <li>??</li>
+        <li>??</li>
+        <li>??</li>
+        <li>??</li>
+        <li>??</li>
+      </ul>
+
+      <div class="button-container">
+        <button id="higher">Higher</button>
+        <button id="lower">Lower</button>
+      </div>
+
+      <div class="button-container">
+        <button id="reset">Restart</button>
+      </div>
+
+    </div>
+
+    <footer>
+      <p>
+        algorithmic.cs |
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+      </p>
+    </footer>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Common programming algorithms for beginner level">
+  <meta name="keywords" content="maths algorithmic.cs, maths game, algorithmic.cs, algorithms, beginner, programming, javascript, js, ecmascript, es6, javascript games">
+  
+  <title>Maths Wiz | algorithmic.cs</title>
+  <link rel="shortcut icon" href="icon.png" type="image/png">
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117222548-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-117222548-1');
+  </script>
+
+</head>
+
+<body>
+  <div class="container">
+    <div id="calculation">Maths Wiz</div>
+
+    <div id="stats">
+      <div class="score">
+        <span id="score">0</span> points <span>/</span> attempt <span id="attempts">0</span>
+      </div>
+
+      <div class="levels">
+        <button class="selected" data-level="1">Easy</button>
+        <button data-level="2">Hard</button>
+        <button data-level="3">Wiz</button>
+      </div>
+    </div>
+
+    <div id="solution-container"></div> 
+
+    <div class="next">
+      <button id="start">Start</button>
+      <button id="reset">Reset</button>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
